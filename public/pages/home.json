@@ -1,271 +1,224 @@
-
 {
-  "meta": {
-    "title": "Home - Khodiyar Brass Industries",
-    "description": "Leading manufacturer of precision brass components with over three decades of excellence in engineering and manufacturing."
-  },
   "hero": {
     "type": "carousel",
-    "enabled": true,
     "slides": [
       {
-        "title": "Precision Engineering Excellence",
-        "subtitle": "Manufacturing superior brass components since 1985",
-        "backgroundImage": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=1920&h=1080&fit=crop&auto=format",
         "cta": {
-          "primary": "View Products",
+          "primary": "View Our Components",
           "secondary": "Learn More",
           "primaryAction": "/products",
           "secondaryAction": "/about"
-        }
+        },
+        "title": "Precision Brass Components for Automotive Excellence",
+        "subtitle": "Delivering High-Quality Manufacturing Solutions Since 2009",
+        "backgroundImage": "https://images.unsplash.com/photo-1666618090858-fbcee636bd3e"
       },
       {
-        "title": "Advanced Manufacturing Solutions",
-        "subtitle": "State-of-the-art CNC machining and quality assurance",
-        "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&h=1080&fit=crop&auto=format",
         "cta": {
-          "primary": "Our Services",
+          "primary": "Explore Our Services",
           "secondary": "Contact Us",
           "primaryAction": "/services",
           "secondaryAction": "/contact"
-        }
+        },
+        "title": "Advanced Manufacturing with Semi-Automatic Precision Machines",
+        "subtitle": "Cutting-Edge Technology Meets Automotive Component Manufacturing",
+        "backgroundImage": "https://images.unsplash.com/photo-1727292485858-588c7652ad69"
       },
       {
-        "title": "Your Trusted Brass Partner",
-        "subtitle": "Reliable, precise, and certified manufacturing solutions",
-        "backgroundImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&h=1080&fit=crop&auto=format",
         "cta": {
-          "primary": "Get Quote",
-          "secondary": "Schedule Visit",
-          "primaryAction": "/contact",
-          "secondaryAction": "tel:+91-281-567-8900"
-        }
+          "primary": "Partner With Us",
+          "secondary": "Request Quote",
+          "primaryAction": "/about",
+          "secondaryAction": "/contact"
+        },
+        "title": "Trusted Brass Component Manufacturing for Global Automotive Needs",
+        "subtitle": "Custom Solutions, Superior Quality, Reliable Delivery Every Time",
+        "backgroundImage": "https://images.unsplash.com/photo-1690613139174-5074641eaa0b"
       }
-    ]
+    ],
+    "enabled": true
+  },
+  "meta": {
+    "title": "Jay Brass - Precision Automotive Components | Manufacturing Excellence",
+    "description": "Leading manufacturer of high-quality brass components for automotive industry. Custom solutions, precision engineering, and reliable manufacturing since 2009."
   },
   "sections": {
-    "whyChooseUs": {
-      "type": "why-choose-us",
+    "cta": {
+      "type": "cta",
+      "title": "Ready to Get Started?",
       "enabled": true,
-      "title": "Why Choose Khodiyar Brass Industries",
-      "subtitle": "Excellence in every aspect of manufacturing",
+      "subtitle": "Discover how our precision manufacturing can elevate your automotive component needs",
+      "primaryCTA": {
+        "text": "View Products",
+        "action": "/products"
+      },
+      "secondaryCTA": {
+        "text": "Contact Us",
+        "action": "/contact"
+      }
+    },
+    "faqs": {
+      "type": "faqs",
       "items": [
         {
+          "id": "minimum-order",
+          "answer": "We offer flexible order quantities, with custom solutions for both small and large-scale production runs.",
+          "question": "What are your minimum order quantities?"
+        },
+        {
+          "id": "lead-time",
+          "answer": "Standard lead times range from 2-4 weeks depending on component complexity and order volume.",
+          "question": "What are your typical production lead times?"
+        },
+        {
           "id": "quality",
-          "icon": "award",
-          "title": "Unmatched Quality",
-          "description": "ISO 9001:2015 certified manufacturing with rigorous quality control at every stage of production."
+          "answer": "We implement rigorous quality control processes, using precision measurement tools and maintaining strict manufacturing standards.",
+          "question": "How do you ensure product quality?"
         },
         {
-          "id": "experience",
-          "icon": "clock",
-          "title": "35+ Years Experience",
-          "description": "Over three decades of expertise in precision brass component manufacturing and engineering solutions."
+          "id": "customization",
+          "answer": "Yes, we offer custom surface finishing, branding, and specialized packaging solutions for our clients.",
+          "question": "Can you provide custom branding or packaging?"
         },
         {
-          "id": "technology",
-          "icon": "cog",
-          "title": "Advanced Technology",
-          "description": "State-of-the-art CNC machining centers and automated production systems for superior precision."
+          "id": "materials",
+          "answer": "We primarily work with brass, specializing in high-precision automotive components with exceptional material quality.",
+          "question": "What materials do you specialize in?"
         }
-      ]
-    },
-    "aboutusintro": {
-      "type": "about-us-intro",
-      "enabled": true,
-      "title": "About Khodiyar Brass Industries",
-      "subtitle": "Leaders in precision brass manufacturing",
-      "description": "Established in 1985, Khodiyar Brass Industries has grown to become one of India's leading manufacturers of precision brass components. We specialize in producing high-quality brass fittings, valves, electrical components, and custom machined parts for diverse industrial applications worldwide.",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "highlights": [
-        "ISO 9001:2015 Certified",
-        "500+ Product Variants Available",
-        "50+ Countries Served",
-        "24/7 Technical Support"
-      ]
+      ],
+      "title": "Frequently Asked Questions",
+      "subtitle": "Get quick answers about our manufacturing capabilities"
     },
     "stats": {
       "type": "stats",
-      "enabled": true,
-      "title": "Our Manufacturing Achievements",
-      "subtitle": "Numbers that speak for our excellence",
       "items": [
-        { "number": "35+", "label": "Years Experience" },
-        { "number": "500+", "label": "Product Variants" },
-        { "number": "50+", "label": "Countries Served" },
-        { "number": "10000+", "label": "Satisfied Clients" }
-      ]
+        {
+          "label": "Years Experience",
+          "number": "14+"
+        },
+        {
+          "label": "Product Variants",
+          "number": "500+"
+        },
+        {
+          "label": "Automotive Clients",
+          "number": "100+"
+        },
+        {
+          "label": "Annual Production",
+          "number": "1M+"
+        }
+      ],
+      "title": "Our Achievements",
+      "enabled": true,
+      "subtitle": "Measuring our commitment to manufacturing excellence"
     },
     "expertise": {
       "type": "expertise",
+      "title": "Industries We Serve",
       "enabled": true,
-      "title": "Our Industry Expertise",
-      "subtitle": "Serving diverse industries with precision brass components",
-      "description": "Our brass components are trusted across multiple industries for their durability, precision, and reliability.",
       "sectors": [
         {
           "id": "automotive",
-          "name": "Automotive Industry",
-          "description": "High-precision brass components for automotive applications including fuel systems and engine parts.",
-          "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80",
+          "name": "Automotive Manufacturing",
+          "image": "https://images.unsplash.com/photo-1519861531473-1f3098c4f35a",
+          "description": "Specialized brass components for automotive electrical and mechanical systems",
           "applications": [
-            "Engine Components",
-            "Fuel Systems",
-            "Brake Fuel",
-            "Transmission Parts",
-            "Cooling Systems"
+            "Battery Terminal Connectors",
+            "Spark Plug Components",
+            "Electrical System Connectors",
+            "Engine Mounting Brackets",
+            "Precision Brass Bolts"
           ]
         },
         {
           "id": "electrical",
-          "name": "Electrical Industry",
-          "description": "Conductive brass components for electrical and electronic applications.",
-          "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=600&q=80",
+          "name": "Electrical Equipment",
+          "image": "https://images.unsplash.com/photo-1516737490857-848138dace41",
+          "description": "High-precision brass components for electrical and electronic applications",
           "applications": [
-            "Electrical Contacts",
-            "Terminal Connectors",
+            "Electrical Connector Pins",
             "Switch Components",
-            "Circuit Breakers",
-            "Grounding Components"
-          ]
-        },
-        {
-          "id": "construction",
-          "name": "Construction Industry",
-          "description": "Durable brass fittings and hardware for construction and plumbing applications.",
-          "image": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Plumbing Fittings",
-            "Door Hardware",
-            "Window Fittings",
-            "Structural Components",
-            "Decorative Elements"
-          ]
-        },
-        {
-          "id": "marine",
-          "name": "Marine Industry",
-          "description": "Corrosion-resistant brass components for marine and offshore applications.",
-          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Propeller Shafts",
-            "Seawater Valves",
-            "Marine Fittings",
-            "Navigation Equipment",
-            "Hull Components"
-          ]
-        },
-        {
-          "id": "aerospace",
-          "name": "Aerospace Industry",
-          "description": "High-performance brass components meeting aerospace industry standards.",
-          "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Precision Components",
-            "Hydraulic Fittings",
-            "Fuel System",
-            "Avionics Navigation",
-            "Control Mechanisms"
-          ]
-        },
-        {
-          "id": "industrial",
-          "name": "Heavy Machinery",
-          "description": "Robust brass components for industrial machinery and equipment applications.",
-          "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Machine Components",
-            "Hydraulic Fittings",
-            "Valve Bodies",
-            "Pressure Vessels",
-            "Heat Exchangers"
-          ]
-        },
-        {
-          "id": "hvac",
-          "name": "HVAC Systems",
-          "description": "Brass fittings and components for heating, ventilation, and air conditioning systems.",
-          "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Pipe Fittings",
-            "Valve Components",
-            "Manifold Parts",
-            "Control Systems",
-            "Refrigeration Components"
-          ]
-        },
-        {
-          "id": "oil-gas",
-          "name": "Oil & Gas",
-          "description": "High-pressure brass components for oil and gas exploration and processing.",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Drilling Equipment",
-            "Pipeline Fittings",
-            "Pressure Gauges",
-            "Safety Valves",
-            "Processing Equipment"
+            "Relay Terminals",
+            "Grounding Hardware"
           ]
         }
-      ]
+      ],
+      "subtitle": "Specialized solutions across diverse automotive sectors",
+      "description": "Jay Brass delivers precision brass components to multiple automotive industry segments, ensuring high-quality, reliable manufacturing solutions tailored to specific industry requirements."
+    },
+    "whyChooseUs": {
+      "type": "why-choose-us",
+      "items": [
+        {
+          "id": "quality",
+          "icon": "shield-check",
+          "title": "Uncompromising Quality",
+          "description": "We maintain stringent quality control processes, ensuring every component meets the highest industry standards and client specifications."
+        },
+        {
+          "id": "experience",
+          "icon": "clock",
+          "title": "Proven Manufacturing Expertise",
+          "description": "With over 14 years in precision manufacturing, we bring deep industry knowledge and consistent reliability to every project."
+        },
+        {
+          "id": "technology",
+          "icon": "cog",
+          "title": "Advanced Manufacturing Technology",
+          "description": "Our semi-automatic precision machines enable us to deliver complex brass components with exceptional accuracy and efficiency."
+        },
+        {
+          "id": "customization",
+          "icon": "settings",
+          "title": "Custom Solutions",
+          "description": "We offer tailored manufacturing services, including custom branding, packaging, and specialized component design."
+        }
+      ],
+      "title": "Why Choose Jay Brass",
+      "enabled": true,
+      "subtitle": "Our commitment to excellence sets us apart"
+    },
+    "aboutusintro": {
+      "type": "about-us-intro",
+      "image": "https://images.unsplash.com/photo-1581091226825-f6f2a255687f",
+      "title": "About Jay Brass",
+      "enabled": true,
+      "subtitle": "Precision Manufacturing Experts",
+      "highlights": [
+        "ISO 9001:2015 Certified",
+        "500+ Product Variants",
+        "Automotive Sector Specialists",
+        "Custom Manufacturing Solutions",
+        "Advanced Semi-Automatic Equipment"
+      ],
+      "description": "Founded in 2009, Jay Brass has established itself as a leading precision brass component manufacturer for the automotive industry. We specialize in delivering high-quality, custom-engineered brass parts using advanced semi-automatic manufacturing technologies. Our commitment to excellence, technological innovation, and customer satisfaction drives our continued growth and success."
     },
     "testimonials": {
       "type": "testimonials",
-      "enabled": true,
-      "title": "What Our Clients Say",
-      "subtitle": "Trusted by industry leaders worldwide",
       "items": [
         {
           "id": "client-1",
-          "name": "Rajesh Kumar",
-          "company": "Gujarat Engineering Ltd",
-          "designation": "Procurement Manager",
-          "content": "Khodiyar Brass Industries has been our trusted partner for over 15 years. Their quality consistency and timely delivery have been exceptional.",
+          "name": "Michael Rodriguez",
+          "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a",
           "rating": 5,
-          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+          "company": "AutoTech Solutions",
+          "content": "Jay Brass has been our go-to manufacturer for precision brass components. Their attention to detail and consistent quality have been instrumental in our product success.",
+          "designation": "Procurement Director"
         },
         {
           "id": "client-2",
-          "name": "Sarah Johnson",
-          "company": "International Industrial Solutions",
-          "designation": "Supply Chain Director",
-          "content": "The precision and quality of their brass components have exceeded our expectations. Highly recommended for critical applications.",
+          "name": "Sarah Thompson",
+          "image": "https://images.unsplash.com/photo-1573496359394-025c7d6ebe0f",
           "rating": 5,
-          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1a7?auto=format&fit=crop&w=150&q=80"
+          "company": "ElectroMotive Systems",
+          "content": "The custom manufacturing solutions and rapid turnaround times from Jay Brass have significantly improved our production efficiency and product reliability.",
+          "designation": "Engineering Manager"
         }
-      ]
-    },
-    "faqs": {
-      "type": "faqs",
+      ],
+      "title": "Client Success Stories",
       "enabled": true,
-      "title": "Frequently Asked Questions",
-      "subtitle": "Common questions about our products and services",
-      "items": [
-        {
-          "id": "minimum-order",
-          "question": "What is the minimum order quantity?",
-          "answer": "Our minimum order quantity varies by product type. For standard brass fittings, it's typically 100 pieces, while custom components may have different requirements based on complexity."
-        },
-        {
-          "id": "lead-time",
-          "question": "What are the typical lead times?",
-          "answer": "Standard products: 2-3 weeks, Custom components: 4-6 weeks, depending on complexity and quantity. We also offer expedited services for urgent requirements."
-        }
-      ]
-    },
-    "cta": {
-      "type": "cta",
-      "enabled": true,
-      "title": "Ready to Experience Precision Excellence?",
-      "subtitle": "Join thousands of satisfied clients who trust Khodiyar Brass Industries for their precision brass component needs.",
-      "primaryCTA": {
-        "text": "Explore Our Products",
-        "action": "/products"
-      },
-      "secondaryCTA": {
-        "text": "Contact Now",
-        "action": "/contact"
-      }
+      "subtitle": "What our partners say about our manufacturing excellence"
     }
   }
 }
